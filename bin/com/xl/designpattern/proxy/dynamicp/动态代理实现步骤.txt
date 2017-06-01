@@ -1,0 +1,5 @@
+1.创建一个实现接口InvocationHandler的类，实现invoke方法。
+2.创建被代理的类以及接口。
+3.调用Proxy的静态方法，创建一个代理类
+	Proxy.newProxyInstance(classloader, aclass, invocationhandler)。
+4.通过代理调用方法。
